@@ -1,0 +1,35 @@
+/* Estilos generales para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Fondo gris claro */
+    color: black;              /* Texto oscuro */
+    text-align: center;        /* Centra todo el texto */
+}
+
+/* El título principal */
+header {
+    background-color: #003333; /* Fondo azul */
+    color: white;              /* Texto blanco */
+    padding: 5px;
+}
+
+/* El bloque de contenido central */
+section {
+    margin: 50px auto;
+    padding: 5px;
+    background-color: white;   /* Fondo blanco para resaltar el texto */
+    max-width: 500px;          /* Ancho máximo de la caja */
+    border-radius: 8px;        /* Bordes suavemente redondeados */
+}
+
+/* El pie de página */
+footer {
+    background-color: #222;    /* Fondo negro suave */
+    color: #aaa;               /* Texto gris claro */
+    padding: 15px;
+    position: fixed;           /* Lo fija en la parte inferior */
+    bottom: 0;
+    width: 100%;
+}
